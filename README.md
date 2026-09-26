@@ -1,8 +1,7 @@
 # Maximus Agent Fabric — Demo Build
 
 Reference implementation supporting the Maximus Industries AG Agent Fabric
-Strategy (Accenture B-School Challenge S10). Builds a shared orchestration
-and governance layer (the "Fabric") once, then plugs in two thin,
+Strategy. Builds a shared orchestration and governance layer (the "Fabric") once, then plugs in two thin,
 function-specific agents — Finance (invoice processing) and Procurement
 (RFQ/quote comparison) — to demonstrate that the second agent is a
 configuration exercise on shared infrastructure, not a new integration
