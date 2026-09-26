@@ -1,0 +1,38 @@
+[
+  {
+    "rfq_id": "RFQ-4001",
+    "item_description": "CNC-machined aluminum housings",
+    "quantity": 1000,
+    "historical_price_index_eur": 100000.00,
+    "quotes": [
+      {"vendor_id": "V-1001", "unit_price": 97.00, "total_eur": 97000.00},
+      {"vendor_id": "V-1002", "unit_price": 108.00, "total_eur": 108000.00},
+      {"vendor_id": "V-1003", "unit_price": 112.00, "total_eur": 112000.00}
+    ],
+    "_case": "clean — lowest quote (V-1001) is clearly lowest and within 5% of benchmark -> auto-select/auto-approve"
+  },
+  {
+    "rfq_id": "RFQ-4002",
+    "item_description": "Industrial-grade conveyor belting, 200m rolls",
+    "quantity": 40,
+    "historical_price_index_eur": 50000.00,
+    "quotes": [
+      {"vendor_id": "V-1002", "unit_price": 1187.50, "total_eur": 47500.00},
+      {"vendor_id": "V-1004", "unit_price": 1190.00, "total_eur": 47600.00},
+      {"vendor_id": "V-1005", "unit_price": 1300.00, "total_eur": 52000.00}
+    ],
+    "_case": "ambiguous — top two quotes (V-1002, V-1004) within 1% of each other -> escalate for human tie-break"
+  },
+  {
+    "rfq_id": "RFQ-4003",
+    "item_description": "Precision-forged crankshafts",
+    "quantity": 500,
+    "historical_price_index_eur": 80000.00,
+    "quotes": [
+      {"vendor_id": "V-1006", "unit_price": 130.00, "total_eur": 65000.00},
+      {"vendor_id": "V-1001", "unit_price": 158.00, "total_eur": 79000.00},
+      {"vendor_id": "V-1003", "unit_price": 163.00, "total_eur": 81500.00}
+    ],
+    "_case": "outlier — lowest quote (V-1006) is 18.75% below historical price index -> escalate for verification"
+  }
+]

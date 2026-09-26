@@ -1,0 +1,11 @@
+[
+  {"system_id": "SYS-ERP-EU", "name": "SAP ERP — EU Region", "data_quality_score": 82},
+  {"system_id": "SYS-ERP-APAC", "name": "SAP ERP — APAC Region", "data_quality_score": 88},
+  {"system_id": "SYS-ERP-LEGACY-3", "name": "Legacy MRP System (Rhineland plant, 2003)", "data_quality_score": 61},
+  {"system_id": "SYS-ERP-US-LEGACY", "name": "Legacy ERP — US Operations (pre-merger)", "data_quality_score": 58},
+  {"system_id": "SYS-ERP-CN", "name": "Oracle ERP — China Operations", "data_quality_score": 79},
+  {"system_id": "SYS-CRM", "name": "Salesforce CRM — Global", "data_quality_score": 85},
+  {"system_id": "SYS-WMS-1", "name": "Warehouse Mgmt System — Munich HQ", "data_quality_score": 70},
+  {"system_id": "SYS-WMS-2", "name": "Warehouse Mgmt System — Regional (unintegrated)", "data_quality_score": 52},
+  {"system_id": "SYS-HRIS", "name": "HRIS — Global", "data_quality_score": 74}
+]

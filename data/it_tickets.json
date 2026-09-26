@@ -1,0 +1,38 @@
+[
+  {
+    "ticket_id": "TCK-6001",
+    "title": "Users in Munich office intermittently dropped from VPN",
+    "category": "Network",
+    "reported_system_id": "SYS-ERP-EU",
+    "known_issue_id": "KI-01",
+    "affected_users": 12,
+    "_case": "clean — known issue match, high-quality source system, low severity -> auto-resolve"
+  },
+  {
+    "ticket_id": "TCK-6002",
+    "title": "Custom report export fails with unhandled error in warehouse module",
+    "category": "Application Error",
+    "reported_system_id": "SYS-WMS-1",
+    "known_issue_id": null,
+    "affected_users": 3,
+    "_case": "no known-issue match -> escalate for human triage"
+  },
+  {
+    "ticket_id": "TCK-6003",
+    "title": "Nightly reconciliation job stalling before completion",
+    "category": "Database",
+    "reported_system_id": "SYS-ERP-LEGACY-3",
+    "known_issue_id": "KI-02",
+    "affected_users": 8,
+    "_case": "known-issue match, but source system data quality (61) is below the 75 threshold -> escalate despite match"
+  },
+  {
+    "ticket_id": "TCK-6004",
+    "title": "VPN gateway down — regional outage, all remote staff affected",
+    "category": "Network",
+    "reported_system_id": "SYS-ERP-APAC",
+    "known_issue_id": "KI-01",
+    "affected_users": 450,
+    "_case": "known-issue match, high-quality source, but affected_users (450) exceeds the 50-user severity guard -> escalate regardless of match"
+  }
+]

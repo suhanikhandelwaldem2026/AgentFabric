@@ -1,0 +1,92 @@
+[
+  {
+    "review_ticket_id": "GCC-7001",
+    "timestamp": "2026-08-07T13:44:47.938930+00:00",
+    "agent_name": "finance_agent",
+    "entity_type": "invoice",
+    "entity_id": "INV-2005",
+    "reason": "over threshold, requires human sign-off",
+    "status": "pending_review"
+  },
+  {
+    "review_ticket_id": "GCC-7002",
+    "timestamp": "2026-08-07T13:44:47.939295+00:00",
+    "agent_name": "finance_agent",
+    "entity_type": "invoice",
+    "entity_id": "INV-2006",
+    "reason": "three-way match failed: amount mismatch: invoice=23100.0 po=22000.0; line item 0 field 'unit_price' mismatch: invoice=231.0 po=220.0",
+    "status": "pending_review"
+  },
+  {
+    "review_ticket_id": "GCC-7003",
+    "timestamp": "2026-08-07T13:44:47.939682+00:00",
+    "agent_name": "finance_agent",
+    "entity_type": "invoice",
+    "entity_id": "INV-2007",
+    "reason": "unknown vendor",
+    "status": "pending_review"
+  },
+  {
+    "review_ticket_id": "GCC-7004",
+    "timestamp": "2026-08-07T13:44:47.940742+00:00",
+    "agent_name": "procurement_agent",
+    "entity_type": "rfq",
+    "entity_id": "RFQ-4002",
+    "reason": "two or more quotes within 1% \u2014 human tie-break required",
+    "status": "pending_review"
+  },
+  {
+    "review_ticket_id": "GCC-7005",
+    "timestamp": "2026-08-07T13:44:47.941194+00:00",
+    "agent_name": "procurement_agent",
+    "entity_type": "rfq",
+    "entity_id": "RFQ-4003",
+    "reason": "lowest quote >15% below historical price index \u2014 possible data error or non-compliant vendor, needs verification",
+    "status": "pending_review"
+  },
+  {
+    "review_ticket_id": "GCC-7006",
+    "timestamp": "2026-08-07T13:44:47.942146+00:00",
+    "agent_name": "corporate_agent",
+    "entity_type": "report_request",
+    "entity_id": "RPT-5002",
+    "reason": "data not ready for auto-generation \u2014 unavailable: CRM_Sales",
+    "status": "pending_review"
+  },
+  {
+    "review_ticket_id": "GCC-7007",
+    "timestamp": "2026-08-07T13:44:47.942558+00:00",
+    "agent_name": "corporate_agent",
+    "entity_type": "report_request",
+    "entity_id": "RPT-5003",
+    "reason": "data not ready for auto-generation \u2014 stale (>7 days): ERP_Finance",
+    "status": "pending_review"
+  },
+  {
+    "review_ticket_id": "GCC-7008",
+    "timestamp": "2026-08-07T13:44:47.944410+00:00",
+    "agent_name": "it_agent",
+    "entity_type": "it_ticket",
+    "entity_id": "TCK-6002",
+    "reason": "no known-issue match \u2014 escalate for human triage",
+    "status": "pending_review"
+  },
+  {
+    "review_ticket_id": "GCC-7009",
+    "timestamp": "2026-08-07T13:44:47.944864+00:00",
+    "agent_name": "it_agent",
+    "entity_type": "it_ticket",
+    "entity_id": "TCK-6003",
+    "reason": "source system data quality (61/100) is below the 75/100 threshold \u2014 known-issue match alone is not sufficient given unreliable source data",
+    "status": "pending_review"
+  },
+  {
+    "review_ticket_id": "GCC-7010",
+    "timestamp": "2026-08-07T13:44:47.945282+00:00",
+    "agent_name": "it_agent",
+    "entity_type": "it_ticket",
+    "entity_id": "TCK-6004",
+    "reason": "affected_users (450) exceeds the 50-user severity guard \u2014 large-scale incidents always get human review regardless of match confidence",
+    "status": "pending_review"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "request_id": "RPT-5001",
+    "report_type": "Monthly SG&A Summary",
+    "requested_by": "CFO Office",
+    "deadline": "2026-08-15",
+    "data_sources": [
+      {"source_name": "ERP_Finance", "available": true, "last_updated_days_ago": 2},
+      {"source_name": "ERP_HR", "available": true, "last_updated_days_ago": 3}
+    ],
+    "_case": "clean — all sources available and fresh -> auto-generate"
+  },
+  {
+    "request_id": "RPT-5002",
+    "report_type": "Quarterly Board Deck — Commercial Performance",
+    "requested_by": "CDO Office",
+    "deadline": "2026-08-20",
+    "data_sources": [
+      {"source_name": "ERP_Finance", "available": true, "last_updated_days_ago": 1},
+      {"source_name": "CRM_Sales", "available": false, "last_updated_days_ago": null}
+    ],
+    "_case": "missing data source (CRM_Sales unavailable) -> escalate"
+  },
+  {
+    "request_id": "RPT-5003",
+    "report_type": "Executive KPI Dashboard",
+    "requested_by": "CEO Office",
+    "deadline": "2026-08-10",
+    "data_sources": [
+      {"source_name": "ERP_Finance", "available": true, "last_updated_days_ago": 15}
+    ],
+    "_case": "stale data source (15 days old, >7 day freshness threshold) -> escalate"
+  },
+  {
+    "request_id": "RPT-5004",
+    "report_type": "Monthly Headcount Report",
+    "requested_by": "CHRO Office",
+    "deadline": "2026-08-12",
+    "data_sources": [
+      {"source_name": "HRIS", "available": true, "last_updated_days_ago": 4}
+    ],
+    "_case": "clean — single source, available and fresh -> auto-generate"
+  }
+]

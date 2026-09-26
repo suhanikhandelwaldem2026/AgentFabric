@@ -1,0 +1,14 @@
+[
+  {
+    "issue_id": "KI-01",
+    "category": "Network",
+    "runbook_id": "RB-100",
+    "description": "VPN gateway session timeout — known intermittent config issue on regional gateways, documented fix available."
+  },
+  {
+    "issue_id": "KI-02",
+    "category": "Database",
+    "runbook_id": "RB-200",
+    "description": "Nightly batch job causes DB row-lock contention — known timing issue, documented workaround available."
+  }
+]

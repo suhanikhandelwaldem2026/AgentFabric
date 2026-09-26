@@ -1,0 +1,66 @@
+[
+  {
+    "po_id": "PO-3001",
+    "vendor_id": "V-1001",
+    "amount_eur": 12500.00,
+    "line_items": [
+      {"sku": "BRG-204", "description": "Precision bearing set", "qty": 500, "unit_price": 25.00}
+    ]
+  },
+  {
+    "po_id": "PO-3002",
+    "vendor_id": "V-1002",
+    "amount_eur": 8900.00,
+    "line_items": [
+      {"sku": "TL-882", "description": "Carbide end mill", "qty": 200, "unit_price": 44.50}
+    ]
+  },
+  {
+    "po_id": "PO-3003",
+    "vendor_id": "V-1003",
+    "amount_eur": 31200.00,
+    "line_items": [
+      {"sku": "STL-119", "description": "Cold-rolled steel sheet 2mm", "qty": 1200, "unit_price": 26.00}
+    ]
+  },
+  {
+    "po_id": "PO-3004",
+    "vendor_id": "V-1004",
+    "amount_eur": 4650.00,
+    "line_items": [
+      {"sku": "FST-330", "description": "Hex fastener kit", "qty": 3000, "unit_price": 1.55}
+    ]
+  },
+  {
+    "po_id": "PO-3005",
+    "vendor_id": "V-1005",
+    "amount_eur": 68000.00,
+    "line_items": [
+      {"sku": "GRB-701", "description": "Industrial gearbox assembly", "qty": 40, "unit_price": 1700.00}
+    ]
+  },
+  {
+    "po_id": "PO-3006",
+    "vendor_id": "V-1006",
+    "amount_eur": 22000.00,
+    "line_items": [
+      {"sku": "VLV-455", "description": "Hydraulic control valve", "qty": 100, "unit_price": 220.00}
+    ]
+  },
+  {
+    "po_id": "PO-3007",
+    "vendor_id": "V-9999",
+    "amount_eur": 15000.00,
+    "line_items": [
+      {"sku": "MTR-620", "description": "AC servo motor", "qty": 30, "unit_price": 500.00}
+    ]
+  },
+  {
+    "po_id": "PO-3008",
+    "vendor_id": "V-1001",
+    "amount_eur": 5300.00,
+    "line_items": [
+      {"sku": "SNS-112", "description": "Proximity sensor", "qty": 100, "unit_price": 53.00}
+    ]
+  }
+]

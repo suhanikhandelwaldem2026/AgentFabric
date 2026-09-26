@@ -1,0 +1,44 @@
+[
+  {
+    "vendor_id": "V-1001",
+    "name": "Rheinmetall Components GmbH",
+    "payment_terms": "net30",
+    "approved": true,
+    "historical_price_index": 101
+  },
+  {
+    "vendor_id": "V-1002",
+    "name": "Alpine Precision Tooling AG",
+    "payment_terms": "net45",
+    "approved": true,
+    "historical_price_index": 98
+  },
+  {
+    "vendor_id": "V-1003",
+    "name": "Nordkraft Industrial Supply",
+    "payment_terms": "net30",
+    "approved": true,
+    "historical_price_index": 103
+  },
+  {
+    "vendor_id": "V-1004",
+    "name": "Baltic Steel & Alloys Ltd",
+    "payment_terms": "net60",
+    "approved": true,
+    "historical_price_index": 97
+  },
+  {
+    "vendor_id": "V-1005",
+    "name": "Danube Fastening Systems",
+    "payment_terms": "net30",
+    "approved": true,
+    "historical_price_index": 100
+  },
+  {
+    "vendor_id": "V-1006",
+    "name": "Carpathian Metalworks SRL",
+    "payment_terms": "net45",
+    "approved": true,
+    "historical_price_index": 99
+  }
+]

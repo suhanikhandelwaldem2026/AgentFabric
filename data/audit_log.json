@@ -1,0 +1,173 @@
+[
+  {
+    "timestamp": "2026-08-07T13:44:47.937546+00:00",
+    "agent_name": "finance_agent",
+    "entity_type": "invoice",
+    "entity_id": "INV-2001",
+    "decision": "auto_approve",
+    "reason": "three-way match passed, known vendor, within \u20ac50,000 threshold",
+    "amount_eur": 12500.0
+  },
+  {
+    "timestamp": "2026-08-07T13:44:47.938119+00:00",
+    "agent_name": "finance_agent",
+    "entity_type": "invoice",
+    "entity_id": "INV-2002",
+    "decision": "auto_approve",
+    "reason": "three-way match passed, known vendor, within \u20ac50,000 threshold",
+    "amount_eur": 8900.0
+  },
+  {
+    "timestamp": "2026-08-07T13:44:47.938409+00:00",
+    "agent_name": "finance_agent",
+    "entity_type": "invoice",
+    "entity_id": "INV-2003",
+    "decision": "auto_approve",
+    "reason": "three-way match passed, known vendor, within \u20ac50,000 threshold",
+    "amount_eur": 31200.0
+  },
+  {
+    "timestamp": "2026-08-07T13:44:47.938668+00:00",
+    "agent_name": "finance_agent",
+    "entity_type": "invoice",
+    "entity_id": "INV-2004",
+    "decision": "auto_approve",
+    "reason": "three-way match passed, known vendor, within \u20ac50,000 threshold",
+    "amount_eur": 4650.0
+  },
+  {
+    "timestamp": "2026-08-07T13:44:47.939022+00:00",
+    "agent_name": "finance_agent",
+    "entity_type": "invoice",
+    "entity_id": "INV-2005",
+    "decision": "escalate",
+    "reason": "over threshold, requires human sign-off",
+    "amount_eur": 68000.0
+  },
+  {
+    "timestamp": "2026-08-07T13:44:47.939415+00:00",
+    "agent_name": "finance_agent",
+    "entity_type": "invoice",
+    "entity_id": "INV-2006",
+    "decision": "escalate",
+    "reason": "three-way match failed: amount mismatch: invoice=23100.0 po=22000.0; line item 0 field 'unit_price' mismatch: invoice=231.0 po=220.0",
+    "amount_eur": 23100.0
+  },
+  {
+    "timestamp": "2026-08-07T13:44:47.939804+00:00",
+    "agent_name": "finance_agent",
+    "entity_type": "invoice",
+    "entity_id": "INV-2007",
+    "decision": "escalate",
+    "reason": "unknown vendor",
+    "amount_eur": 15000.0
+  },
+  {
+    "timestamp": "2026-08-07T13:44:47.940095+00:00",
+    "agent_name": "finance_agent",
+    "entity_type": "invoice",
+    "entity_id": "INV-2008",
+    "decision": "auto_approve",
+    "reason": "three-way match passed, known vendor, within \u20ac50,000 threshold",
+    "amount_eur": 5300.0
+  },
+  {
+    "timestamp": "2026-08-07T13:44:47.940421+00:00",
+    "agent_name": "procurement_agent",
+    "entity_type": "rfq",
+    "entity_id": "RFQ-4001",
+    "decision": "auto_approve",
+    "reason": "lowest compliant quote within \u00b110% of historical price index",
+    "amount_eur": 97000.0
+  },
+  {
+    "timestamp": "2026-08-07T13:44:47.940863+00:00",
+    "agent_name": "procurement_agent",
+    "entity_type": "rfq",
+    "entity_id": "RFQ-4002",
+    "decision": "escalate",
+    "reason": "two or more quotes within 1% \u2014 human tie-break required",
+    "amount_eur": 47500.0
+  },
+  {
+    "timestamp": "2026-08-07T13:44:47.941442+00:00",
+    "agent_name": "procurement_agent",
+    "entity_type": "rfq",
+    "entity_id": "RFQ-4003",
+    "decision": "escalate",
+    "reason": "lowest quote >15% below historical price index \u2014 possible data error or non-compliant vendor, needs verification",
+    "amount_eur": 65000.0
+  },
+  {
+    "timestamp": "2026-08-07T13:44:47.941826+00:00",
+    "agent_name": "corporate_agent",
+    "entity_type": "report_request",
+    "entity_id": "RPT-5001",
+    "decision": "auto_approve",
+    "reason": "all data sources available and fresh (within 7-day threshold)",
+    "amount_eur": null
+  },
+  {
+    "timestamp": "2026-08-07T13:44:47.942247+00:00",
+    "agent_name": "corporate_agent",
+    "entity_type": "report_request",
+    "entity_id": "RPT-5002",
+    "decision": "escalate",
+    "reason": "data not ready for auto-generation \u2014 unavailable: CRM_Sales",
+    "amount_eur": null
+  },
+  {
+    "timestamp": "2026-08-07T13:44:47.942672+00:00",
+    "agent_name": "corporate_agent",
+    "entity_type": "report_request",
+    "entity_id": "RPT-5003",
+    "decision": "escalate",
+    "reason": "data not ready for auto-generation \u2014 stale (>7 days): ERP_Finance",
+    "amount_eur": null
+  },
+  {
+    "timestamp": "2026-08-07T13:44:47.943264+00:00",
+    "agent_name": "corporate_agent",
+    "entity_type": "report_request",
+    "entity_id": "RPT-5004",
+    "decision": "auto_approve",
+    "reason": "all data sources available and fresh (within 7-day threshold)",
+    "amount_eur": null
+  },
+  {
+    "timestamp": "2026-08-07T13:44:47.944073+00:00",
+    "agent_name": "it_agent",
+    "entity_type": "it_ticket",
+    "entity_id": "TCK-6001",
+    "decision": "auto_approve",
+    "reason": "known-issue match, source system quality (82/100) meets threshold, and affected_users (12) is within the severity guard",
+    "amount_eur": null
+  },
+  {
+    "timestamp": "2026-08-07T13:44:47.944537+00:00",
+    "agent_name": "it_agent",
+    "entity_type": "it_ticket",
+    "entity_id": "TCK-6002",
+    "decision": "escalate",
+    "reason": "no known-issue match \u2014 escalate for human triage",
+    "amount_eur": null
+  },
+  {
+    "timestamp": "2026-08-07T13:44:47.944957+00:00",
+    "agent_name": "it_agent",
+    "entity_type": "it_ticket",
+    "entity_id": "TCK-6003",
+    "decision": "escalate",
+    "reason": "source system data quality (61/100) is below the 75/100 threshold \u2014 known-issue match alone is not sufficient given unreliable source data",
+    "amount_eur": null
+  },
+  {
+    "timestamp": "2026-08-07T13:44:47.945376+00:00",
+    "agent_name": "it_agent",
+    "entity_type": "it_ticket",
+    "entity_id": "TCK-6004",
+    "decision": "escalate",
+    "reason": "affected_users (450) exceeds the 50-user severity guard \u2014 large-scale incidents always get human review regardless of match confidence",
+    "amount_eur": null
+  }
+]
